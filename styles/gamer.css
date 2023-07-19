@@ -155,7 +155,7 @@ nav li a{
   
 }
 
-.funny-img img:hover{
+.funny-img img{
     cursor: pointer;
     
 }
@@ -344,11 +344,13 @@ footer li a{
     #gamerbd{
         margin-left: 120px;
     }
-    
+    .funny-videos{
+        width: 90%;
+    }
     
     
     .funny-img img{
-        width: 70%;
+        width: 65%;
     }
     .play-title, .play-desc{
         margin: 20px;
