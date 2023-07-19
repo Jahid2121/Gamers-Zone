@@ -178,6 +178,7 @@ nav li a{
 /* Main Footer related styles */
 .main-footer{
     background-color: #0B0223;
+
 }
 #Gamer{
     color: #FFF;
@@ -204,9 +205,9 @@ nav li a{
     margin-left: 260px;
    
 }
+
 footer li{
     list-style: none;
-    padding-bottom: 150px;
   
 }
 footer li a{
@@ -217,6 +218,15 @@ footer li a{
     font-weight: 600;
     
 }
+
+#gamerbd{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 9px;
+    font-weight: 500;
+    margin-left: 400px;
+}
+
 /* Responsive begins */
 /* Mobile devices */
 @media screen and (max-width: 576px) {
@@ -227,7 +237,11 @@ footer li a{
     nav, 
     .funny-img,
     .play-instantly{
+    
         flex-direction: column;
+    }
+    #cont-foot{
+        margin: 0 120px;
     }
     .banner{
         flex-direction: column-reverse;
@@ -235,6 +249,23 @@ footer li a{
     .funny-content{
         margin: 0px;
     }
+    #footer-nav-one > ul{
+        margin: 0 40px 0px 48px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    #footer-nav-two > ul{
+        margin: 0 40px 0px 48px;
+        display: grid;
+        
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #gamerbd{
+        margin-left: 120px;
+    }
+    
+    
+    
     .funny-img img{
         width: 70%;
     }
