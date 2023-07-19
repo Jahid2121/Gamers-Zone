@@ -8,3 +8,59 @@
     font-family: 'Poppins', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+
+/* header styles */
+header{
+    background: #FFF;
+    padding: 50px 240px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    font-size: 18px;
+    font-weight: 700;
+    color:  #0B0223;
+}
+
+nav > ul {
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: 500;
+}
+nav li a{
+    text-decoration: none;
+    color: #3C354F;;
+}
+
+/* banner styles */
+
+.banner{
+    display: flex;
+    gap: 370px;
+}
+
+
+.banner-content{
+    max-width: 900px;
+    text-align: left;
+}
+
+.banner-title{
+    font-size: 48px;
+    font-weight: 600;
+    color: #0B0223;
+}
+
+.banner-description{
+    color: #534C64;
+}
+.button{
+    display: flex;
+}
