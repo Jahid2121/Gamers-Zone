@@ -152,6 +152,11 @@ nav li a{
 .funny-img img{
     width: 150px;
     justify-content: center;
+  
+}
+
+.funny-img img:hover{
+    cursor: pointer;
     
 }
 .vid-description{
@@ -198,6 +203,7 @@ nav li a{
 .games img{
     width: 50px;
     
+    
 }
 .games > button{
     border-radius: 50px;
@@ -206,6 +212,7 @@ nav li a{
 }
 .games{
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .games > button{
