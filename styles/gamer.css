@@ -71,7 +71,7 @@ nav li a{
 
 .banner{
     display: flex;
-    gap: 170px;
+    gap: 50px;
     background: #FFF;
     
 }
@@ -207,16 +207,25 @@ nav li a{
 .games{
     text-align: center;
 }
-.games span{
-    text-align: center;
-    margin-bottom: 20px;
 
+.games > button{
+   padding: 30px;
+   border: 0px;
 }
-
+button:hover{
+    color: #FF42A5;
+    cursor: pointer;
+    border: 1px solid #FF42A5 ;
+    border-radius: 50px;
+    background: #FFF;
+    padding: 30px;
+  
+}
 
 /* Main Footer related styles */
 .main-footer{
     background-color: #0B0223;
+    
 
 }
 #Gamer{
@@ -259,12 +268,17 @@ footer li a{
     
 }
 
+
 #gamerbd{
     color: rgba(255, 255, 255, 0.60);
     text-align: center;
     font-size: 9px;
     font-weight: 500;
     margin-left: 400px;
+}
+#social-media{
+    padding-right: 320px;
+        padding-left: 110px;
 }
 
 /* Responsive begins */
@@ -277,10 +291,16 @@ footer li a{
     nav, 
     .funny-img,
     .play-instantly,
-    .nav-items-container > ul{
+    .nav-items-container > ul
+    {
     
         flex-direction: column;
     }
+    #social-media{
+        padding-right: 120px;
+            padding-left: 10px;
+    }
+
     #cont-foot{
         margin: 0 120px;
     }
@@ -340,4 +360,5 @@ footer li a{
     .funny-content{
         width:50%;
     }
+    
 }
