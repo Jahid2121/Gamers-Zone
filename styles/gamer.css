@@ -5,7 +5,11 @@
 .logo-container img{
     width: 27%;
     height: 22px;
-    
+.nav-title > span{
+    color: #FF42A5;
+}  
+
+
 }
 .logo-container{
     display: flex;
@@ -19,12 +23,23 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+#g-for-gamer{
+    color: #FF42A5;
+}
+
 /* header styles */
 header{
     padding: 30px 80px;
 }
-
-
+.know-us{
+    margin-top: 20px;
+}
+.Follow{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 17px 20px;
+    
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -37,10 +52,10 @@ nav{
     color:  #0B0223;
     margin-top: 50px;
 }
-
-nav > ul {
+.nav-items-container > ul{
     display: flex;
 }
+
 nav li{
     list-style: none;
     margin-right: 30px;
@@ -58,8 +73,14 @@ nav li a{
     display: flex;
     gap: 170px;
     background: #FFF;
+    
 }
-
+#goat{
+    color: #F948B2;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 800;
+}
 
 .banner-content{
     max-width: 900px;
@@ -75,6 +96,7 @@ nav li a{
 
 .banner-description{
     color: #534C64;
+    margin-bottom: 45px;
 }
 .button{
     display: flex;
@@ -106,6 +128,11 @@ nav li a{
 /* funny-videos re. styles */
 .funny-content{
     margin: 40px 295px;
+    
+}
+#funny-vid-text{
+    color: #F948B2 ; 
+    font-weight: 700;
 }
 .funny-title{
     color: #0B0223;
@@ -129,12 +156,15 @@ nav li a{
 }
 .vid-description{
     color: #534C64;
-    font-size: 20px;
+    font-size: 10px;
     font-weight: 500;
 }
 /* play-instantly re. styles */
 .play-instantly{
     display: flex;
+}
+#play-instantly-text{
+    color: #F948B2;
 }
 .play-title{
     text-align: right;
@@ -146,10 +176,11 @@ nav li a{
 .play-desc{
     color: #534C64;
     text-align: right;
-    font-size: 15px;
+    font-size: 11px;
     font-weight: 400;
     margin-right: 200px;
     margin-left: 100px;
+    padding-left: 40px;
 }
 
 .Main-img{
@@ -166,6 +197,12 @@ nav li a{
 /* Games related styles */
 .games img{
     width: 50px;
+    
+}
+.games > button{
+    border-radius: 50px;
+    background: #FFF;
+    text-align: center;
 }
 .games{
     text-align: center;
@@ -175,6 +212,8 @@ nav li a{
     margin-bottom: 20px;
 
 }
+
+
 /* Main Footer related styles */
 .main-footer{
     background-color: #0B0223;
@@ -184,6 +223,7 @@ nav li a{
     color: #FFF;
     font-size: 25px;
     font-weight: 700;
+    
 }
 #cont-foot > img{
     width: 18%;
@@ -236,7 +276,8 @@ footer li a{
     
     nav, 
     .funny-img,
-    .play-instantly{
+    .play-instantly,
+    .nav-items-container > ul{
     
         flex-direction: column;
     }
@@ -246,8 +287,22 @@ footer li a{
     .banner{
         flex-direction: column-reverse;
     }
+    .nav-items-container > ul{
+        gap: 25px;
+        text-align: center;
+    }
+    .banner-content{
+        width: 50%;
+        text-align: center;
+        padding-left: 46px;
+    }
+    
     .funny-content{
         margin: 0px;
+        padding-left: 10px;
+    }
+    .funny-img{
+        padding-left: 45px;
     }
     #footer-nav-one > ul{
         margin: 0 40px 0px 48px;
@@ -281,5 +336,8 @@ footer li a{
 @media screen and (min-width: 576px) and (max-width: 960px) {
     nav{
         flex-direction: column;
+    }
+    .funny-content{
+        width:50%;
     }
 }
